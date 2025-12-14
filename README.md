@@ -42,3 +42,27 @@ Classification model outputs status: Delayed or On Time.
 Expected metrics: MAE ≈ 6, R² ≈ 0.82, classification accuracy ≈ 93%
 ## Dependencies
 Listed in requirements.txt
+
+## References
+
+- **Datasets**
+  - Food Delivery Times dataset (historical records of delivery operations used for training and evaluation).
+  - Any synthetic or course-provided datasets referenced in ANLT202 Final Project.
+
+- **Libraries**
+  - [Flask](https://flask.palletsprojects.com/) – lightweight Python web framework.
+  - [Pyngrok](https://github.com/alexdlaird/pyngrok) – tunneling service for exposing local servers.
+  - [Joblib](https://joblib.readthedocs.io/) – model persistence and serialization.
+  - [Pandas](https://pandas.pydata.org/) – data manipulation and analysis.
+  - [Scikit-learn](https://scikit-learn.org/stable/) – machine learning models and preprocessing.
+
+- **Tutorials / Documentation**
+  - AWS Elastic Beanstalk Python deployment guide.
+  - Ngrok official documentation for tunneling Flask apps.
+  - Scikit-learn documentation on [model persistence](https://scikit-learn.org/stable/model_persistence.html).
+  - Flask documentation on [render_template_string](https://flask.palletsprojects.com/en/latest/api/#flask.render_template_string).
+
+- **Papers / Academic References**
+  - Pedregosa et al. (2011). *Scikit-learn: Machine Learning in Python*. Journal of Machine Learning Research.
+  - Relevant course materials from ANLT202 on predictive modeling and operational decision support systems.
+
